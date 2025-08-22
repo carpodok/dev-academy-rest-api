@@ -11,7 +11,7 @@ Node.js RESTful API project for managing educational resources in an academy. It
 ## Endpoints
 Below is an overview of the available endpoints and their functionalities.
 - ***To explore the Swagger UI schema and view available endpoints, navigate to `http://localhost:3000/api-docs` after running the server.***
-- ***You can also test these endpoints via shared postman collection json file***
+- ***You can also test these endpoints via shared postman collection json file in project***
 
 <img width="1255" alt="auth" src="https://github.com/user-attachments/assets/1be0b082-b258-48a1-9e92-2d087af32149">
 <img width="1255" alt="bootcamps" src="https://github.com/user-attachments/assets/09b8bf7b-42a0-4083-83ea-26ea0151859c">
