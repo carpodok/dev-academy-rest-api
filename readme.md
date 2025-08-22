@@ -5,9 +5,14 @@
 ![JWT](https://img.shields.io/badge/JWT-Auth%20Tokens-ffffff?logo=jsonwebtokens&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-API%20Docs-85EA2D?logo=swagger&logoColor=white)
 
+**Dev Academy REST API** is a **Node.js RESTful API** designed to manage educational resources in an academy.  
+It provides full CRUD functionality for:  
+- 👩‍🎓 Users  
+- 🏫 Bootcamps  
+- 📘 Courses  
+- ⭐ Reviews
 
-Node.js RESTful API project for managing educational resources in an academy. It offers full CRUD functionality for users , courses , bootcamps and reviews with Express.js for routing and MongoDB for storage.
-
+  
 ## Endpoints
 Below is an overview of the available endpoints and their functionalities.
 - ***To explore the Swagger UI schema and view available endpoints, navigate to `http://localhost:3000/api-docs` after running the server.***
