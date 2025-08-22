@@ -1,4 +1,10 @@
 # Dev Academy REST API
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-4.x-lightgrey?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen?logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Auth%20Tokens-ffffff?logo=jsonwebtokens&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-API%20Docs-85EA2D?logo=swagger&logoColor=white)
+
 
 Node.js RESTful API project for managing educational resources in an academy. It offers full CRUD functionality for users , courses , bootcamps and reviews with Express.js for routing and MongoDB for storage.
 
