@@ -1,4 +1,5 @@
-# Dev Academy REST API
+# 📚 Dev Academy REST API
+
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-4.x-lightgrey?logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen?logo=mongodb&logoColor=white)
@@ -13,37 +14,36 @@ It provides full CRUD functionality for:
 - ⭐ Reviews
 
   
-## Endpoints
-Below is an overview of the available endpoints and their functionalities.
-- ***To explore the Swagger UI schema and view available endpoints, navigate to `http://localhost:3000/api-docs` after running the server.***
-- ***You can also test these endpoints via shared postman collection json file in project***
+## 🚀 Endpoints
 
-<img width="1255" alt="auth" src="https://github.com/user-attachments/assets/1be0b082-b258-48a1-9e92-2d087af32149">
-<img width="1255" alt="bootcamps" src="https://github.com/user-attachments/assets/09b8bf7b-42a0-4083-83ea-26ea0151859c">
-<img width="1255" alt="courses" src="https://github.com/user-attachments/assets/fdebf626-ce85-45d2-9653-335aa63f5e9d">
-<img width="1255" alt="reviews" src="https://github.com/user-attachments/assets/063db466-ac7f-4bd0-8e49-d8eec0dcad11">
-<img width="1255" alt="users" src="https://github.com/user-attachments/assets/7f167e17-0b2b-4322-87f3-13b38cf5a446">
+- **Swagger UI**: `http://localhost:3000/api-docs`  
+- **Postman Collection**: Use the provided JSON file in the project.
 
-
-## Key Features
-
- This project implements the following key features to ensure a robust, secure, and scalable web application:
-
-- `JWT-Based Authentication:` Secure user authentication using JSON Web Tokens (JWT) to manage user sessions.
-- `Password Hashing`: Secure password storage with hashing using the `bcryptjs` package.
-- `Role-Based Access Control (RBAC)`: Authorization system to manage access based on user roles, ensuring secure data handling.
-- `Password Recovery`: Full password recovery system, including both "reset password" and "forgot password" functionalities.
-- `Email Notifications`: Automated email notifications for password recovery using the `nodemailer` package.
-- `Server-Side Validation`: Input validation using the `express-validator` package to ensure data integrity and security.
-- `Advanced MongoDB Queries`: Efficient data retrieval and manipulation using the MongoDB Aggregation Framework.
-- `Pagination`: Implemented pagination for efficient result retrieval in larger datasets.
-- `Image Upload`: Secure image uploading functionality using the `express-fileupload` package.
-- `SEO-Friendly URLs`: Convert text into URL-friendly slugs using the `slugify` package.
-- `Rate Limiting`: Protect the application from abuse by implementing rate limiting using the `express-rate-limit` package.
-- `Mongoose Hooks`: Utilized Mongoose `pre` and `post` hooks for automating tasks such as data validation and modifications before saving or retrieving documents.
+### Screenshots  
+<img width="800" alt="auth" src="https://github.com/user-attachments/assets/1be0b082-b258-48a1-9e92-2d087af32149">  
+<img width="800" alt="bootcamps" src="https://github.com/user-attachments/assets/09b8bf7b-42a0-4083-83ea-26ea0151859c">  
+<img width="800" alt="courses" src="https://github.com/user-attachments/assets/fdebf626-ce85-45d2-9653-335aa63f5e9d">  
+<img width="800" alt="reviews" src="https://github.com/user-attachments/assets/063db466-ac7f-4bd0-8e49-d8eec0dcad11">  
+<img width="800" alt="users" src="https://github.com/user-attachments/assets/7f167e17-0b2b-4322-87f3-13b38cf5a446">  
 
 
- ## Installation
+## 🔑 Key Features
+
+✔ **JWT Authentication** – Secure login & session handling  
+✔ **Password Hashing** with `bcryptjs`  
+✔ **RBAC (Role-Based Access Control)**  
+✔ **Password Recovery** (Forgot & Reset Password)  
+✔ **Email Notifications** with `nodemailer`  
+✔ **Server-Side Validation** using `express-validator`  
+✔ **Advanced MongoDB Queries** & Aggregations  
+✔ **Pagination** for large datasets  
+✔ **Image Uploads** via `express-fileupload`  
+✔ **SEO-Friendly URLs** using `slugify`  
+✔ **Rate Limiting** with `express-rate-limit`  
+✔ **Mongoose Hooks** (pre & post save/update)  
+
+
+## ⚙️ Installation
   1. Clone the repository
   
   ```bash
@@ -117,15 +117,5 @@ npm run dev
 
 <br>
 
-
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
-
-
 ## License
 This project is licensed under the MIT License.
-
-
-
-
